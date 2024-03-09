@@ -14,7 +14,6 @@ use axum_live_view::{
 use serde::{Deserialize, Serialize};
 use std::sync::mpsc;
 use tokio::sync::broadcast;
-use tracing::warn;
 
 pub struct App {
     shared_state: ServerwideSharedState,
